@@ -1,0 +1,8 @@
+extends layout
+
+block content
+  h1= title
+  form(action="/upload", method="post", enctype="multipart/form-data")
+  label(for="file") Please click to load a file -
+   input(type="file", id="file", name="file")
+   input(type="submit" , name="file")
