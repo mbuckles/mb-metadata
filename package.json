@@ -3,25 +3,33 @@
   "version": "1.0.0",
   "main": "app.js",
   "engines": {
-      "node": "6.9.4",
-      "npm": "3.10.10"
-    },
-    "private": true,
-    "scripts": {
-      "start": "node ./bin/www"
-    },
-   "dependencies": {
+    "node": "6.9.4",
+    "npm": "3.10.10"
+  },
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "cors": "^2.8.3",
     "debug": "~2.6.3",
     "express": "^4.15.2",
     "jade": "~1.11.0",
     "mongodb": "^2.2.25",
-    "body-parser": "^1.17.1",
-    "cors": "^2.8.3",
-    "express": "^4.15.2",
+    "mongoose": "^4.9.4",
     "multer": "^1.3.0"
   },
   "author": "",
   "devDependencies": {},
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbuckles/mb-metadata.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mbuckles/mb-metadata/issues"
+  },
+  "homepage": "https://github.com/mbuckles/mb-metadata#readme"
 }
